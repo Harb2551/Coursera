@@ -91,9 +91,6 @@ li {
  	                         background-color: black;
                                         } 
 
-@media (min-width: 767px) {
-    .navbar-toggle {
-         display: none;
     }
 }
 
