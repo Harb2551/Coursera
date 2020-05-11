@@ -75,11 +75,12 @@ li {
 
 .navbar-header button.navbar-toggle {
 	                                  margin-top: 20px;
+                                    margin-bottom: 10px; 
                                     border:1px solid #F7F250;
                                     background-color: maroon;
-                                    position: absolute;
-                                    right: 0;
-                                   }
+                                    position: relative;
+                                    right:0;
+                                    }
 	           
 	           
 
@@ -91,8 +92,22 @@ li {
  	                         background-color: black;
                                         } 
 
-    }
-}
+    
+
+@media (max-width:800px) and (min-width:768px) { 
+          .navbar-header button.navbar-toggle {
+                                               display: block !important;
+                                               position: absolute;
+                                               right: 0;
+                                              }
+                            .show {
+                                              display:block !important;
+                                             }                                            
+                                           }
+
+
+
+
 
                 
  
