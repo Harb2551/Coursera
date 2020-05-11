@@ -20,12 +20,8 @@ body {
                margin:0 10px;
                padding: 0;
               font-family: 'Fredoka One', cursive;
-              clear:both;
               }
 
-.navbar-brand {
-              clear:both;
-}
 
 #main_content {
 	           font-size: 2em;
@@ -74,11 +70,9 @@ li {
                   }
 
 .navbar-header button.navbar-toggle {
-	                                  margin-top: 20px;
+	                                margin-top: 20px;
                                     border:1px solid #F7F250;
                                     background-color: maroon;
-                                    position: absolute;
-                                    right: 0;
                                    }
 	           
 	           
@@ -89,14 +83,13 @@ li {
   
 .navbar-header button.navbar-toggle:hover { 
  	                         background-color: black;
-                                        } 
 
-@media (min-width: 767px) {
-    .navbar-toggle {
-         display: none;
-    }
+                             }
+
+.navbar-toggle {
+	            display:inline;
 }
 
                 
- 
+
 
