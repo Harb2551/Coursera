@@ -100,15 +100,12 @@ li {
                                                position: absolute;
                                                right: 0;
                                               }
-                            .show {
-                                              display:block !important;
-                                             }                                            
-                                           }
+                                            }
+                                            
+ details {
+        position: absolute;
+        right: 30px;
+        font-size: 3em;
+        display: inline;
 
-
-
-
-
-                
- 
-
+ }
