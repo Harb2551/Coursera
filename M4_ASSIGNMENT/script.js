@@ -44,10 +44,10 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 for (var name in names) {
     var i=names[name];
    if (i[0].toLowerCase()=="j") {
-    	speak1.speak(i);
+    	byeSpeaker.speak(i);
     }
     else {
-    	speak2.speak(i);
+    	helloSpeaker.speak(i);
     }
 }
   // STEP 11:
